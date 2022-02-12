@@ -10,7 +10,7 @@ module.exports = {
     },
     ganache:{
       url: 'http://localhost:7545',
-      accounts: ["044d59887f2394de7054e7436e0081f5a6c6fbbf2c88beb5e28334176f0b45c2"]
+      accounts: [process.env.GANACHE_PRIVATE_KEY]
     }
   }
 };
